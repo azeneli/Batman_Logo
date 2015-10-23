@@ -1,1 +1,78 @@
 /* CURRENTLY IN: styles/main.css */
+
+
+.content-color{
+	background-color: #ccc;
+}
+
+
+.batman {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+		top: 25%;
+		left: 30%;
+	background-color: #000;
+	border-radius: 255px/150px;
+	/* overflow: hidden */
+}
+
+.batman__inner-boxOne {
+	width: 470px;
+	height: 270px;
+	position: absolute;
+		top: 5%;
+		left: 3%;
+	background-color: #E5E500;
+	border-radius: 250px/150px;
+	/* overflow: hidden */	
+}
+
+.batman__inner-boxTwo {
+	width: 450px;
+	height: 250px;
+	position: absolute;
+		top: 3.3%;
+		left: 2.2%;
+	background-color: #000;	
+	border-radius: 240px/140px;
+	/* overflow: hidden */	
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
