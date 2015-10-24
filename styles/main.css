@@ -64,7 +64,7 @@
 	height: 60px;
 	position: absolute;
 		bottom: 5%;
-		left: 20%;
+		left: 15%;
 	background-color: #ccc;
 	border-radius: 190px / 120px;
 }
@@ -74,13 +74,54 @@
 	height: 60px;
 	position: absolute;
 		bottom: 5%;
-		right: 20%;
+		right: 15%;
 	background-color: #ccc;
 	border-radius: 190px / 120px;
 }
 
+.batman__lower-leftTrans {
+    transform:rotate(35deg);
+    	-webkit-transform:rotate(35deg);
+ 			 -moz-transform:rotate(35deg);
+}
 
+.batman__lower-rightTrans {
+	transform:rotate(-35deg);
+		-webkit-transform:rotate(-35deg);
+ 			 -moz-transform:rotate(-35deg);
+}
 
+.batman__lower-rightCurve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 4%;
+		right: 33%;
+	background-color: red;
+	border-radius: 220px / 110px;;	
+}
+
+.batman__lower-leftCurve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 5%;
+		right: 25%;
+	background-color: green;
+	border-radius: 220px / 110px;
+}
+
+.batman__lower-rightCtrans {
+	transform: rotate(-65deg);
+		-webkit-transform:rotate(-65deg);
+ 			 -moz-transform:rotate(-65deg);
+}
+
+.batman__lower-leftCtrans {
+	transform: rotate(64deg);
+		-webkit-transform:rotate(64deg);
+ 			 -moz-transform:rotate(64deg);	
+}
 
 
 
