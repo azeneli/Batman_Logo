@@ -39,9 +39,45 @@
 	/* overflow: hidden */	
 }	
 
+.batman__top-left {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+		top: 12%;
+		left: 25%;
+	background-color: #ccc;
+	border-radius: 500px;
+}
 
+.batman__top-right {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+		top: 12%;
+		left: 55%;
+	background-color: #ccc;
+	border-radius: 500px;
+}
 
+.batman__lower-left {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+		bottom: 5%;
+		left: 20%;
+	background-color: #ccc;
+	border-radius: 190px / 120px;
+}
 
+.batman__lower-right {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+		bottom: 5%;
+		right: 20%;
+	background-color: #ccc;
+	border-radius: 190px / 120px;
+}
 
 
 
