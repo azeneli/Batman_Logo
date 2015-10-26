@@ -1,10 +1,10 @@
 /* CURRENTLY IN: styles/main.css */
 
-
-.content-color{
-	background-color: #ccc;
+.batman__background {
+	height: 650px;
+	background: url("../batman.jpg") center center no-repeat; 
+	background-size: cover;
 }
-
 
 .batman {
 	width: 500px;
