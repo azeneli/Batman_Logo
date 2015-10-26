@@ -40,13 +40,13 @@
 }	
 
 .batman__top-left {
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 80px;
 	position: absolute;
-		top: 3%;
-		left: 20%;
-	background-color: #ccc;
-	border-radius: 500px;
+		top: 1%;
+		left: 24%;
+	background-color: #E5E500;
+	border-radius: 90px/80px;
 }
 
 /*
@@ -55,13 +55,13 @@
  */
 
 .batman__top-right {
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 80px;
 	position: absolute;
-		top: 3%;
-		left: 63%;
-	background-color: #ccc;
-	border-radius: 500px;
+		top: 1%;
+		left: 54%;
+	background-color: #E5E500;
+	border-radius: 90px/80px;
 }
 
 /*
@@ -77,7 +77,7 @@
 	position: absolute;
 		bottom: 5%;
 		left: 15%;
-	background-color: #ccc;
+	background-color: #E5E500;
 	border-radius: 190px / 120px;
 }
 
@@ -87,7 +87,7 @@
 	position: absolute;
 		bottom: 5%;
 		right: 15%;
-	background-color: #ccc;
+	background-color: #E5E500;
 	border-radius: 190px / 120px;
 }
 
@@ -103,14 +103,34 @@
  			 -moz-transform:rotate(-35deg);
 }
 
-.batman__lower-rightCurve {
+/*.batman__lower-rightCurve {
 	width: 85px;
 	height: 45px;
 	position: absolute;
 		bottom: 4%;
 		right: 34%;
 	background-color: red;
-	border-radius: 220px / 110px;;	
+	border-radius: 220px / 110px;	
+}*/
+
+/*.batman__lower-leftCurve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 5%;
+		right: 30%;
+	background-color: green;
+	border-radius: 220px / 110px;
+}*/
+
+.batman__lower-rightCurve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 5%;
+		right: 35%;
+	background-color: #E5E500;
+	border-radius: 220px / 110px;	
 }
 
 .batman__lower-leftCurve {
@@ -119,14 +139,14 @@
 	position: absolute;
 		bottom: 5%;
 		right: 30%;
-	background-color: green;
+	background-color: #E5E500;
 	border-radius: 220px / 110px;
 }
 
 .batman__lower-rightCtrans {
-	transform: rotate(-65deg);
-		-webkit-transform:rotate(-65deg);
- 			 -moz-transform:rotate(-65deg);
+	transform: rotate(-60deg);
+		-webkit-transform:rotate(-60deg);
+ 			 -moz-transform:rotate(-60deg);
 }
 
 .batman__lower-leftCtrans {
@@ -139,51 +159,64 @@
 	width: 85px;
 	height: 45px;
 	position: absolute;
-		bottom: 5%;
-		left: 35%;
-	background-color: purple;
+		bottom: 4%;
+		left: 33%;
+	background-color: #E5E500;
 	border-radius: 220px / 110px;		
 }
 
+/*
+	78px
+	45px
+ */
+
 .batman__right-curve {
-	width: 85px;
-	height: 45px;
+	width: 75px;
+	height: 48px;
 	position: absolute;
-		bottom: 5%;
+		bottom: 4%;
 		left: 30%;
-	background-color: violet;	
-	border-radius: 220px / 110px;
+	background-color: #E5E500;	
+	border-radius: 220px / 150px;
 }
+/*
+
+	65px
+	48px
+	bottom:4%;
+ */
 
 .batman__left-transform {
-	transform: rotate(64deg);
-		-webkit-transform:rotate(64deg);
- 			 -moz-transform:rotate(64deg);	
+	transform: rotate(60deg);
+		-webkit-transform:rotate(60deg);
+ 			 -moz-transform:rotate(60deg);	
 }
 
 
 .batman__right-transform {
-	transform: rotate(120deg);
-		-webkit-transform:rotate(120deg);
- 			-moz-transform:rotate(120deg);		
+	transform: rotate(116deg);
+		-webkit-transform:rotate(116deg);
+ 			-moz-transform:rotate(116deg);		
 }
 
+/*   100deg */
+
 .batman__head {
-	width: 110px;
+	width: 180px;
 	height: 50px;
 	position: absolute;
-		top: -2%;
-		left: 37%;
-	background-color: red;	
+		top: 0%;
+		left: 30%;
+	background-color: #E5E500;	
 }
 
 .batman__head-center {
-	width: 45px;
+	width: 47px;
 	height: 65px;
 	position: absolute;
-		top: 5%;
-		left: 44%;
-	background-color: grey;
+		top: 9%;
+		left: 43.7%;
+	background-color: #000;
 	border-radius: 230px / 110px;;		
 }
 
@@ -191,13 +224,13 @@
 	width: 0;
 	height: 0;
 	position: absolute;
-		top: -2%;
+		top: 2%;
 		left: 44%;
-	
+	margin: 0 0 0 -1px;	
 }
 
 .batman__head-triangleLBorder {
-	border-bottom: 28px solid green;
+	border-bottom: 28px solid #000;
 	border-left: 1px solid transparent;
 	border-right: 13px solid transparent; 	
 }
@@ -206,17 +239,25 @@
 	width: 0;
 	height: 0;
 	position: absolute;
-		top: -2%;
+		top: 2%;
 		right: 46%;
+	margin: 0 -1px 0 0;	
 }
 
 .batman__head-triangleRBorder {
-	border-bottom: 28px solid green;
+	border-bottom: 28px solid #000;
 	border-left: 14px solid transparent;
 	border-right: 1px solid transparent;	
 }
 
-
+.cleaner {
+	width: 175px;
+	height: 20px;
+	position: absolute;
+		bottom: 0%;
+		left: 30%;
+	background-color: #E5E500;
+}
 
 
 
