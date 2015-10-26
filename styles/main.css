@@ -188,21 +188,33 @@
 }
 
 .batman__head-triangleL {
-	width: 1px;
-	height: 1px;
+	width: 0;
+	height: 0;
 	position: absolute;
-		top: 2%;
-		left: 40%;
+		top: -2%;
+		left: 44%;
+	
+}
+
+.batman__head-triangleLBorder {
 	border-bottom: 28px solid green;
-	border-left:;
+	border-left: 1px solid transparent;
 	border-right: 13px solid transparent; 	
 }
 
 .batman__head-triangleR {
-	
+	width: 0;
+	height: 0;
+	position: absolute;
+		top: -2%;
+		right: 46%;
 }
 
-
+.batman__head-triangleRBorder {
+	border-bottom: 28px solid green;
+	border-left: 14px solid transparent;
+	border-right: 1px solid transparent;	
+}
 
 
 
