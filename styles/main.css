@@ -43,21 +43,33 @@
 	width: 70px;
 	height: 70px;
 	position: absolute;
-		top: 12%;
-		left: 25%;
+		top: 3%;
+		left: 20%;
 	background-color: #ccc;
 	border-radius: 500px;
 }
+
+/*
+	top: 12%;
+	left: 25%;
+ */
 
 .batman__top-right {
 	width: 70px;
 	height: 70px;
 	position: absolute;
-		top: 12%;
-		left: 55%;
+		top: 3%;
+		left: 63%;
 	background-color: #ccc;
 	border-radius: 500px;
 }
+
+/*
+	top: 12%;
+	left: 25%;
+ */
+
+
 
 .batman__lower-left {
 	width: 100px;
@@ -96,7 +108,7 @@
 	height: 45px;
 	position: absolute;
 		bottom: 4%;
-		right: 33%;
+		right: 34%;
 	background-color: red;
 	border-radius: 220px / 110px;;	
 }
@@ -106,7 +118,7 @@
 	height: 45px;
 	position: absolute;
 		bottom: 5%;
-		right: 25%;
+		right: 30%;
 	background-color: green;
 	border-radius: 220px / 110px;
 }
@@ -118,21 +130,77 @@
 }
 
 .batman__lower-leftCtrans {
+	transform: rotate(66deg);
+		-webkit-transform:rotate(66deg);
+ 			-moz-transform:rotate(66deg);	
+}
+
+.batman__left-curve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 5%;
+		left: 35%;
+	background-color: purple;
+	border-radius: 220px / 110px;		
+}
+
+.batman__right-curve {
+	width: 85px;
+	height: 45px;
+	position: absolute;
+		bottom: 5%;
+		left: 30%;
+	background-color: violet;	
+	border-radius: 220px / 110px;
+}
+
+.batman__left-transform {
 	transform: rotate(64deg);
 		-webkit-transform:rotate(64deg);
  			 -moz-transform:rotate(64deg);	
 }
 
 
+.batman__right-transform {
+	transform: rotate(120deg);
+		-webkit-transform:rotate(120deg);
+ 			-moz-transform:rotate(120deg);		
+}
 
+.batman__head {
+	width: 110px;
+	height: 50px;
+	position: absolute;
+		top: -2%;
+		left: 37%;
+	background-color: red;	
+}
 
+.batman__head-center {
+	width: 45px;
+	height: 65px;
+	position: absolute;
+		top: 5%;
+		left: 44%;
+	background-color: grey;
+	border-radius: 230px / 110px;;		
+}
 
+.batman__head-triangleL {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+		top: 2%;
+		left: 40%;
+	border-bottom: 28px solid green;
+	border-left:;
+	border-right: 13px solid transparent; 	
+}
 
-
-
-
-
-
+.batman__head-triangleR {
+	
+}
 
 
 
