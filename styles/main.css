@@ -144,9 +144,9 @@
 }
 
 .batman__lower-rightCtrans {
-	transform: rotate(-60deg);
-		-webkit-transform:rotate(-60deg);
- 			 -moz-transform:rotate(-60deg);
+	transform: rotate(-63deg);
+		/*-webkit-transform:rotate(-60deg);
+ 			 -moz-transform:rotate(-60deg);*/
 }
 
 .batman__lower-leftCtrans {
@@ -160,7 +160,7 @@
 	height: 45px;
 	position: absolute;
 		bottom: 4%;
-		left: 33%;
+		left: 34%;
 	background-color: #E5E500;
 	border-radius: 220px / 110px;		
 }
@@ -187,16 +187,16 @@
  */
 
 .batman__left-transform {
-	transform: rotate(60deg);
-		-webkit-transform:rotate(60deg);
- 			 -moz-transform:rotate(60deg);	
+	transform: rotate(63deg);
+		/*-webkit-transform:rotate(60deg);
+ 			 -moz-transform:rotate(60deg);	*/
 }
 
 
 .batman__right-transform {
-	transform: rotate(116deg);
-		-webkit-transform:rotate(116deg);
- 			-moz-transform:rotate(116deg);		
+	transform: rotate(111.5deg);
+		/*-webkit-transform:rotate(116deg);
+ 			-moz-transform:rotate(116deg);		*/
 }
 
 /*   100deg */
@@ -258,8 +258,6 @@
 		left: 30%;
 	background-color: #E5E500;
 }
-
-
 
 
 
